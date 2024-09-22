@@ -1,0 +1,76 @@
+.add-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.add-container h1 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.add-container form {
+  margin-top: 20px;
+}
+
+.add-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #666;
+}
+
+.add-container input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-container input:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-container button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-container button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.add-container button {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-container button:hover {
+  background-color: #f0f0f0;
+}
+
+.add-container a {
+  text-decoration: none;
+  color: #333;
+}
