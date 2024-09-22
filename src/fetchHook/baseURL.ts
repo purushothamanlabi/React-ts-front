@@ -1,4 +1,4 @@
 
 
-const URL: string = "http://localhost:5000";
+const URL: string = "https://react-ts-server-g61j.onrender.com";
 export default URL
